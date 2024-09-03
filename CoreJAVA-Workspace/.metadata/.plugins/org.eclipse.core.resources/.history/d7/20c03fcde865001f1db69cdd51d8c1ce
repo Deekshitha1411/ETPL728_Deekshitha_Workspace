@@ -1,0 +1,19 @@
+package com.evergent.corejava.collections.map;
+
+import java.util.HashMap;
+
+public class HashMapDemo3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		HashMap<String, String> capitalCities=new HashMap<String, String>();
+		capitalCities.put("india"," " );
+		capitalCities.put("USA", "Washington DC");
+		capitalCities.put("germany", "berlin");
+		capitalCities.put("india", "delhi");
+		capitalCities.re
+		System.out.println(capitalCities);
+
+	}
+
+}

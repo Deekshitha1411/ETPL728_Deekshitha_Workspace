@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.objectstyle.wolips.launching.WOLocalJavaApplication">
+    <stringAttribute key="WOJavaLocalApplicationLaunchConfigurationDelegate.OpenInBrowser" value="false"/>
+    <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+        <listEntry value="/CoreJAVA_Development/src/com/evergent/corejava/collections/Stack/Stack_Demo3.java"/>
+    </listAttribute>
+    <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+        <listEntry value="1"/>
+    </listAttribute>
+    <stringAttribute key="org.eclipse.jdt.launching.CLASSPATH_PROVIDER" value="org.objectstyle.wolips.launching.WORuntimeClasspathProvider"/>
+    <stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="com.evergent.corejava.collections.Stack.Stack_Demo3"/>
+    <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="CoreJAVA_Development"/>
+    <stringAttribute key="org.eclipse.jdt.launching.WORKING_DIRECTORY" value="${working_dir_loc_WOLips:CoreJAVA_Development}"/>
+</launchConfiguration>

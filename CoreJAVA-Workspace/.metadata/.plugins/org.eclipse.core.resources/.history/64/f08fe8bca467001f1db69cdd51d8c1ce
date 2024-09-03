@@ -1,0 +1,50 @@
+package com.evergent.corejava.casestudy2;
+
+import java.util.ArrayDeque;
+import java.util.Scanner;
+
+public class SupportTicketSystem {
+
+	ArrayDeque <String> ticketQueue=new ArrayDeque<>();
+	Scanner sc=new Scanner(System.in);
+
+	String ticket;
+		public void addTicket(String ticket) {
+			ticketQueue.add(ticket);
+			
+		}
+		public void processNextTicket() {
+			if(ticketQueue.isEmpty()!=true) {
+			ticketQueue.poll();
+			}
+			else {
+				System.out.println("null");
+			}
+			
+			
+		}
+		public void peekNextTicket() {
+			
+			if(ticketQueue.isEmpty()!=true) {
+				ticketQueue.peek();
+				}
+				else {
+					System.out.println("null");
+				}			
+		}
+		public void displayQueue() {
+			System.out.println(ticketQueue);
+			
+		}
+		public static void main(String[] args) {
+			SupportTicketSystem system=new SupportTicketSystem();
+			system.addTicket("2");
+			system.processNextTicket();
+			system.peekNextTicket();
+			system.displayQueue();
+		
+
+
+	}
+
+}

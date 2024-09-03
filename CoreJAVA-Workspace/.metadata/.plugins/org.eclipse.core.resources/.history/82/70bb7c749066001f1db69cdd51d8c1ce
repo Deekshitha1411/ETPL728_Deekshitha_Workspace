@@ -1,0 +1,26 @@
+package com.evergent.corejava.casestudy2;
+
+import java.util.ArrayDeque;
+
+public class SupportTicketSystem {
+
+	ArrayDeque <String> ticketQueue=new ArrayDeque<>();
+		public void addTicket(String ticket) {
+			
+		}
+		public void processNextTicket() {
+			
+		}
+		public void peekNextTicket() {
+			
+		}
+		public void displayQueue() {
+			
+		}
+		public static void main(String[] args) {
+		
+
+
+	}
+
+}

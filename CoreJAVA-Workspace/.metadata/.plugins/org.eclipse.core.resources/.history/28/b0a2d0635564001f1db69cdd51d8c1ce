@@ -1,0 +1,29 @@
+package com.evergent.corejava.exceptionhandling;
+
+public class ExceptionDemo2 {
+	String name="null";
+	int d=0;
+	public void myData(){
+		try {
+			System.out.println("one");
+			System.out.println(10/d);
+			System.out.println("end");
+		}
+		catch(NullPointerException e) {
+			System.out.println("i can handle "+e);
+		}
+		finally {
+			System.out.println(name.length());
+		}
+		
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		ExceptionDemo2 ed2=new ExceptionDemo2();
+		ed2.myData();
+		
+		
+	}
+
+}

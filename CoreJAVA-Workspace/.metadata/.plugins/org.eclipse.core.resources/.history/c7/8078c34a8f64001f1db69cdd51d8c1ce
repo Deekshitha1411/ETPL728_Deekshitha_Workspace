@@ -1,0 +1,19 @@
+package com.evergent.corejava.wrapperclasses;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class CF14_ArrayList_Hashset {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		List<String>list=new ArrayList<>();
+		list.add("core java");
+		list.add("J2EE");
+		list.add("J2SE");
+		list.add("myjava");
+		System.out.println(list);
+
+	}
+
+}

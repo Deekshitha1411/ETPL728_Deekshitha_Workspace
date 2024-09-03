@@ -1,0 +1,9 @@
+package com.evergent.corejava.collections.task3;
+
+
+public interface MovieInterface {
+	String addMovie(Movie m);
+	void searchBy(String mid);
+	void getAllMovies();
+
+}

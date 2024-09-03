@@ -1,0 +1,28 @@
+package com.evergent.corejava.collections.task2;
+
+public class Movie { 
+	private int mid;
+	private String mname;
+	private float ticket_cost;
+	
+	public void setMid(int mid) {
+		this.mid = mid;
+	}
+	public void setMname(String mname) {
+		this.mname = mname;
+	}
+	public void setTicket_cost(float ticket_cost) {
+		this.ticket_cost = ticket_cost;
+	}
+	public int getMid() {
+		return mid;
+	}
+	public String getMname() {
+		return mname;
+	}
+	public float getTicket_cost() {
+		return ticket_cost;
+	}
+	
+	 
+}

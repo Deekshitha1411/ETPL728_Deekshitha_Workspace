@@ -1,0 +1,10 @@
+package com.evergent.corejava.casestudy2;
+
+public class SupportTicketSystem {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

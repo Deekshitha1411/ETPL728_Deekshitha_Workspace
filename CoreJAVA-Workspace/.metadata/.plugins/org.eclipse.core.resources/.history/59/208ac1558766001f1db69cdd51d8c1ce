@@ -1,0 +1,31 @@
+package com.evergent.corejava.collections.task2;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
+import java.util.Scanner;
+
+
+public class MovieData{
+	public static void main(String[] args) {
+		List<Movie> list=new ArrayList<Movie>();
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter the employee details");
+		for(int i=0;i<3;i++){
+			Movie obj=new Movie();
+			System.out.println("Enter the id");
+			obj.setMid(sc.nextInt());
+			System.out.println("Enter the name");
+			obj.setMname(sc.next());
+			System.out.println("Enter the salary");
+			obj.setTicket_cost(sc.nextFloat());
+			list.add(obj); 		}		 
+	
+		Iterator<Movie> obj=list.iterator();
+		while(obj.hasNext()){
+			System.out.println("Iterator order");
+			Movie ob=obj.next();
+			System.out.println(ob.getMid()+ " "+ ob.getMname()+ " "+ob.getTicket_cost());
+		} 	
+	}
+
